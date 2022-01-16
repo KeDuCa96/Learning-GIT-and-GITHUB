@@ -28,7 +28,7 @@ Luego en consola de VSC:
 
         git commit -m "primer commit"  ---> si esto se cumple con exito la terminal nos mostrará todo los cambios que se han hecho hasta el momento.
 
-        git log --oneline---> vemos la cantidad de commit que hemos hecho con sus ID. También podremos ver los tag o versiones que hemos hecho, pero eso lo vemos un poco mas abajo.
+        git log --oneline---> vemos la cantidad de commit que hemos hecho con sus ID. También podremos ver los tag o versiones que hemos hecho y los branch o ramas, pero eso lo vemos un poco mas abajo.
 
 6.  Viajamos a través de los commit con los siguientes tres pasos:
     Con esto podemos restaurar cambios que no hayamos hecho días atrás y no nos gusten, nos creen conflicto en código, etc. Por eso es muy importante que los commit que hagamos estén bien especificados.
@@ -64,4 +64,23 @@ Se ven reflejados en el apartado de tags y nos sirven para crear versiones del p
 
         git push --tags ---> Con esto subimos los tags a la nube o GITHUB
 
+---->   BRANCH
+Son líneas de tiempo paralela para luego podemos juntar, todo este tiempo hemos usado la rama MASTER. Trabajando en equipo lo mas seguro es que toque dividir proyecto en diferentes etapas y en algún momento toca unirlos por ejemplo: el front y back trabajan cada uno en su rama y luego se unen. 
 
+1.  Creamos una rama:
+
+        git branch ramaParrafo ---> Creamos la rama, pero aún seguimos en la master.
+
+        git checkout 'nombreDeLaRama' ---> Si nos muestra un switched quiere decir que nos cambiamos de rama.
+
+        git branch ---> Esto nos mostrará la cantidad de ramas y en la que estamos.
+
+2.  Unimos las ramas:
+    Hacemos todos los add, commit en nuestra nueva rama antes de unirnos.
+    - Posiblemente todas estas indicaciones se vean creadas por la rama front
+
+        git checkout 'nombreDeLaRama' ---> nos cambioamos a la rama master
+
+        git branch ---> Verificamos el nombre de las ramas y tenemos que estar en el master 
+
+        git merge 'nombreDeLaRama' ---> con esto hacemos la unión
