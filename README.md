@@ -76,7 +76,9 @@ Son líneas de tiempo paralela para luego podemos juntar, todo este tiempo hemos
         git branch ---> Esto nos mostrará la cantidad de ramas y en la que estamos.
 
 2.  Unimos las ramas:
-
+    Hacemos todos los add, commit en nuestra nueva rama
+    Posiblemente todas estas indicaciones se vean creadas por la rama front
+    
         git checkout 'nombreDeLaRama' ---> nos cambioamos a la rama master
 
         git branch ---> Verificamos el nombre de las ramas y tenemos que estar en el master 
