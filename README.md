@@ -68,9 +68,17 @@ Se ven reflejados en el apartado de tags y nos sirven para crear versiones del p
 Son líneas de tiempo paralela para luego podemos juntar, todo este tiempo hemos usado la rama MASTER. Trabajando en equipo lo mas seguro es que toque dividir proyecto en diferentes etapas y en algún momento toca unirlos por ejemplo: el front y back trabajan cada uno en su rama y luego se unen. 
 
 1.  Creamos una rama:
+
         git branch ramaParrafo ---> Creamos la rama, pero aún seguimos en la master.
 
         git checkout 'nombreDeLaRama' ---> Si nos muestra un switched quiere decir que nos cambiamos de rama.
 
         git branch ---> Esto nos mostrará la cantidad de ramas y en la que estamos.
 
+2.  Unimos las ramas:
+
+        git checkout 'nombreDeLaRama' ---> nos cambioamos a la rama master
+
+        git branch ---> Verificamos el nombre de las ramas y tenemos que estar en el master 
+
+        git merge 'nombreDeLaRama' ---> con esto hacemos la unión
