@@ -26,7 +26,7 @@ Luego en consola de VSC:
 
 5. Creamos una copia momentanea de los archivos ya agregados previamente y con esto podremos viajar en el tiempo.
 
-    git commit -m "primer commit"   
+    git commit -m "primer commit"  ---> si esto se cumple con exito la terminal nos mostrará todo los cambios que se han hecho hasta el momento.
 
     git log --oneline---> vemos la cantidad de commit que hemos hecho.
 
@@ -34,15 +34,13 @@ Luego en consola de VSC:
 
     get reset --hard <idDelCommit> ---> Con este regresamos al commit que querramos. 
 
-    git log --oneline ---> visualizamos los commit y decidimos a cual volver 
+    git log --oneline ---> visualizamos los commit y decidimos a cual volver. 
 
-    get reset --hard <idDelCommit> ---> Con este regresamos al commit que querramos. 
+    get reset --hard <idDelCommit> ---> Con este regresamos al commit que querramos.
 
 7. Una vez en GITHUB podremos crear un nuevo repositorio y este nos dará una lista de comandos el cual usaremos dos:
 
     git remote add origin <urlArrojadaPorGITHUB> ---> con esto podremos trabajar de forma remota.
-
-8. Para finalizar y poder visualizar nuestros cambios en GITHUB 
 
     git push -u origin master ---> esto solo una vez luego solo podremos usar el git push
 
