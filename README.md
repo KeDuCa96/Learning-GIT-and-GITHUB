@@ -84,3 +84,9 @@ Son líneas de tiempo paralela para luego podemos juntar, todo este tiempo hemos
         git branch ---> Verificamos el nombre de las ramas y tenemos que estar en el master 
 
         git merge 'nombreDeLaRama' ---> con esto hacemos la unión
+
+        git branch -d ---> Con esto eliminamos la rama que ya no vamos a usar
+    
+    - Acá podremos ver que al cambiar de ramas dejamos de ver los cambios que hizo la otra rama y al momento de unirlas con el merge visualizamos ambos cambios.
+
+    - Debemos estar atentos al momento de los cambios para no generar conflictos.   
