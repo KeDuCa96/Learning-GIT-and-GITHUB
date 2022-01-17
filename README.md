@@ -90,3 +90,6 @@ Son líneas de tiempo paralela para luego podemos juntar, todo este tiempo hemos
     - Acá podremos ver que al cambiar de ramas dejamos de ver los cambios que hizo la otra rama y al momento de unirlas con el merge visualizamos ambos cambios.
 
     - Debemos estar atentos al momento de los cambios para no generar conflictos.
+
+    - En caso tal hagamos un conflicto entre ramas GIT nos puede dar una ayuda en la cual nos pondrá a escoger entre que version guardar. Por esto toca ser cuidadoso.
+    
