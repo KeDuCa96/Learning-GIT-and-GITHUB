@@ -79,7 +79,7 @@ Son líneas de tiempo paralela para luego podemos juntar, todo este tiempo hemos
     Hacemos todos los add, commit en nuestra nueva rama antes de unirnos.
     - Posiblemente todas estas indicaciones se vean creadas por la rama front
 
-        git checkout 'nombreDeLaRama' ---> nos cambioamos a la rama master
+        git checkout 'nombreDeLaRama' ---> nos cambiamos a la rama master
 
         git branch ---> Verificamos el nombre de las ramas y tenemos que estar en el master 
 
@@ -89,4 +89,4 @@ Son líneas de tiempo paralela para luego podemos juntar, todo este tiempo hemos
     
     - Acá podremos ver que al cambiar de ramas dejamos de ver los cambios que hizo la otra rama y al momento de unirlas con el merge visualizamos ambos cambios.
 
-    - Debemos estar atentos al momento de los cambios para no generar conflictos.   
+    - Debemos estar atentos al momento de los cambios para no generar conflictos.
